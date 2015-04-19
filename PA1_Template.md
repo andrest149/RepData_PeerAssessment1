@@ -65,7 +65,7 @@ XmaxV<-X2[Q2==max(Q2)]
 
 ```
 
-The time interval that contains the maximum step is r XmaxV
+The time interval that contains the maximum step is `r XmaxV`.
 
 
 ```{r simulation2}
@@ -76,7 +76,7 @@ N<-rep(1,length(Data[,1]))
 Nt<-sum(N[is.na(Data[,1])])
 
 ```
-Total number of missing values 'r Nt'
+Total number of missing values are `r Nt`
 
 ```{r simulation3}
 
